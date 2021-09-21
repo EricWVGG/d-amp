@@ -7,26 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF492E3026F9130200F1347A /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF492E2F26F9130200F1347A /* MotionManager.swift */; };
 		AF5573BE26EFFA2C00109B01 /* DampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5573BD26EFFA2C00109B01 /* DampApp.swift */; };
 		AF5573C026EFFA2C00109B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5573BF26EFFA2C00109B01 /* ContentView.swift */; };
 		AF5573C226EFFA2D00109B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5573C126EFFA2D00109B01 /* Assets.xcassets */; };
 		AF5573C526EFFA2D00109B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5573C426EFFA2D00109B01 /* Preview Assets.xcassets */; };
-		AF5573C726EFFA2D00109B01 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5573C626EFFA2D00109B01 /* Persistence.swift */; };
 		AF5573CA26EFFA2D00109B01 /* Damp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF5573C826EFFA2D00109B01 /* Damp.xcdatamodeld */; };
+		AF5573D726EFFA5F00109B01 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5573D626EFFA5F00109B01 /* SafariWebExtensionHandler.swift */; };
+		AF5573DA26EFFA5F00109B01 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = AF5573D926EFFA5F00109B01 /* _locales */; };
+		AF5573DC26EFFA5F00109B01 /* images in Resources */ = {isa = PBXBuildFile; fileRef = AF5573DB26EFFA5F00109B01 /* images */; };
+		AF5573DE26EFFA5F00109B01 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AF5573DD26EFFA5F00109B01 /* manifest.json */; };
+		AF5573E026EFFA5F00109B01 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5573DF26EFFA5F00109B01 /* background.js */; };
+		AF5573E226EFFA5F00109B01 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5573E126EFFA5F00109B01 /* content.js */; };
+		AF5573E426EFFA5F00109B01 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AF5573E326EFFA5F00109B01 /* popup.html */; };
+		AF5573E626EFFA5F00109B01 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AF5573E526EFFA5F00109B01 /* popup.css */; };
+		AF5573E826EFFA5F00109B01 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5573E726EFFA5F00109B01 /* popup.js */; };
+		AF5573EC26EFFA5F00109B01 /* Damp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF5573D426EFFA5F00109B01 /* Damp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AF9F318A26F10F3D00C6C2FB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = AF9F318926F10F3D00C6C2FB /* Main.html */; };
+		AF9F318D26F10F9C00C6C2FB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = AF9F318C26F10F9C00C6C2FB /* Style.css */; };
+		AF9F318F26F1145D00C6C2FB /* Scripts.js in Resources */ = {isa = PBXBuildFile; fileRef = AF9F318E26F1145D00C6C2FB /* Scripts.js */; };
+		AF9F319126F14FFF00C6C2FB /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F319026F14FFF00C6C2FB /* InstructionsView.swift */; };
+		AF9F319326F1503700C6C2FB /* AddToWhitelistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F319226F1503700C6C2FB /* AddToWhitelistView.swift */; };
+		AF9F31B426F24C6F00C6C2FB /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9F31B326F24C6F00C6C2FB /* UserSettings.swift */; };
+		AFA5C50826F9222300B50746 /* FxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C50726F9222300B50746 /* FxView.swift */; };
+		AFA5C52A26F9355C00B50746 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA5C52926F9355C00B50746 /* Tile.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AF5573EA26EFFA5F00109B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5573B226EFFA2C00109B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5573D326EFFA5F00109B01;
+			remoteInfo = "Damp Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF5573F026EFFA5F00109B01 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF5573EC26EFFA5F00109B01 /* Damp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		AF5573BA26EFFA2C00109B01 /* Damp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF492E2F26F9130200F1347A /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		AF5573BA26EFFA2C00109B01 /* d’AMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "d’AMP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5573BD26EFFA2C00109B01 /* DampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DampApp.swift; sourceTree = "<group>"; };
 		AF5573BF26EFFA2C00109B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF5573C126EFFA2D00109B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF5573C426EFFA2D00109B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AF5573C626EFFA2D00109B01 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AF5573C926EFFA2D00109B01 /* Damp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Damp.xcdatamodel; sourceTree = "<group>"; };
+		AF5573D426EFFA5F00109B01 /* Damp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Damp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5573D626EFFA5F00109B01 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		AF5573D926EFFA5F00109B01 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		AF5573DB26EFFA5F00109B01 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		AF5573DD26EFFA5F00109B01 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		AF5573DF26EFFA5F00109B01 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		AF5573E126EFFA5F00109B01 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		AF5573E326EFFA5F00109B01 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		AF5573E526EFFA5F00109B01 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		AF5573E726EFFA5F00109B01 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		AF5573E926EFFA5F00109B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9F318926F10F3D00C6C2FB /* Main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Main.html; sourceTree = "<group>"; };
+		AF9F318C26F10F9C00C6C2FB /* Style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		AF9F318E26F1145D00C6C2FB /* Scripts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Scripts.js; sourceTree = "<group>"; };
+		AF9F319026F14FFF00C6C2FB /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		AF9F319226F1503700C6C2FB /* AddToWhitelistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToWhitelistView.swift; sourceTree = "<group>"; };
+		AF9F31B326F24C6F00C6C2FB /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		AF9F31B626F2709900C6C2FB /* Damp_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Damp_Extension.entitlements; sourceTree = "<group>"; };
+		AFA5C50726F9222300B50746 /* FxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FxView.swift; sourceTree = "<group>"; };
+		AFA5C52826F9305C00B50746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AFA5C52926F9355C00B50746 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF5573B726EFFA2C00109B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5573D126EFFA5F00109B01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				AF5573BC26EFFA2C00109B01 /* Damp */,
+				AF5573D526EFFA5F00109B01 /* Damp Extension */,
 				AF5573BB26EFFA2C00109B01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,7 +118,8 @@
 		AF5573BB26EFFA2C00109B01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF5573BA26EFFA2C00109B01 /* Damp.app */,
+				AF5573BA26EFFA2C00109B01 /* d’AMP.app */,
+				AF5573D426EFFA5F00109B01 /* Damp Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,12 +127,19 @@
 		AF5573BC26EFFA2C00109B01 /* Damp */ = {
 			isa = PBXGroup;
 			children = (
+				AFA5C52826F9305C00B50746 /* Info.plist */,
 				AF5573BD26EFFA2C00109B01 /* DampApp.swift */,
 				AF5573BF26EFFA2C00109B01 /* ContentView.swift */,
+				AFA5C50726F9222300B50746 /* FxView.swift */,
 				AF5573C126EFFA2D00109B01 /* Assets.xcassets */,
-				AF5573C626EFFA2D00109B01 /* Persistence.swift */,
 				AF5573C826EFFA2D00109B01 /* Damp.xcdatamodeld */,
 				AF5573C326EFFA2D00109B01 /* Preview Content */,
+				AF9F318B26F10F4400C6C2FB /* Resources */,
+				AF9F319026F14FFF00C6C2FB /* InstructionsView.swift */,
+				AF9F319226F1503700C6C2FB /* AddToWhitelistView.swift */,
+				AF9F31B326F24C6F00C6C2FB /* UserSettings.swift */,
+				AF492E2F26F9130200F1347A /* MotionManager.swift */,
+				AFA5C52926F9355C00B50746 /* Tile.swift */,
 			);
 			path = Damp;
 			sourceTree = "<group>";
@@ -73,6 +152,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AF5573D526EFFA5F00109B01 /* Damp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AF5573D626EFFA5F00109B01 /* SafariWebExtensionHandler.swift */,
+				AF9F31B626F2709900C6C2FB /* Damp_Extension.entitlements */,
+				AF5573E926EFFA5F00109B01 /* Info.plist */,
+				AF5573D826EFFA5F00109B01 /* Resources */,
+			);
+			path = "Damp Extension";
+			sourceTree = "<group>";
+		};
+		AF5573D826EFFA5F00109B01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF5573D926EFFA5F00109B01 /* _locales */,
+				AF5573DB26EFFA5F00109B01 /* images */,
+				AF5573DD26EFFA5F00109B01 /* manifest.json */,
+				AF5573DF26EFFA5F00109B01 /* background.js */,
+				AF5573E126EFFA5F00109B01 /* content.js */,
+				AF5573E326EFFA5F00109B01 /* popup.html */,
+				AF5573E526EFFA5F00109B01 /* popup.css */,
+				AF5573E726EFFA5F00109B01 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF9F318B26F10F4400C6C2FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F318E26F1145D00C6C2FB /* Scripts.js */,
+				AF9F318C26F10F9C00C6C2FB /* Style.css */,
+				AF9F318926F10F3D00C6C2FB /* Main.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +198,36 @@
 				AF5573B626EFFA2C00109B01 /* Sources */,
 				AF5573B726EFFA2C00109B01 /* Frameworks */,
 				AF5573B826EFFA2C00109B01 /* Resources */,
+				AF5573F026EFFA5F00109B01 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5573EB26EFFA5F00109B01 /* PBXTargetDependency */,
+			);
+			name = Damp;
+			packageProductDependencies = (
+			);
+			productName = Damp;
+			productReference = AF5573BA26EFFA2C00109B01 /* d’AMP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5573D326EFFA5F00109B01 /* Damp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5573ED26EFFA5F00109B01 /* Build configuration list for PBXNativeTarget "Damp Extension" */;
+			buildPhases = (
+				AF5573D026EFFA5F00109B01 /* Sources */,
+				AF5573D126EFFA5F00109B01 /* Frameworks */,
+				AF5573D226EFFA5F00109B01 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Damp;
-			productName = Damp;
-			productReference = AF5573BA26EFFA2C00109B01 /* Damp.app */;
-			productType = "com.apple.product-type.application";
+			name = "Damp Extension";
+			productName = "Damp Extension";
+			productReference = AF5573D426EFFA5F00109B01 /* Damp Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +242,9 @@
 					AF5573B926EFFA2C00109B01 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					AF5573D326EFFA5F00109B01 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = AF5573B526EFFA2C00109B01 /* Build configuration list for PBXProject "Damp" */;
@@ -117,11 +256,14 @@
 				Base,
 			);
 			mainGroup = AF5573B126EFFA2C00109B01;
+			packageReferences = (
+			);
 			productRefGroup = AF5573BB26EFFA2C00109B01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AF5573B926EFFA2C00109B01 /* Damp */,
+				AF5573D326EFFA5F00109B01 /* Damp Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,8 +273,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9F318F26F1145D00C6C2FB /* Scripts.js in Resources */,
 				AF5573C526EFFA2D00109B01 /* Preview Assets.xcassets in Resources */,
+				AF9F318D26F10F9C00C6C2FB /* Style.css in Resources */,
+				AF9F318A26F10F3D00C6C2FB /* Main.html in Resources */,
 				AF5573C226EFFA2D00109B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5573D226EFFA5F00109B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5573E026EFFA5F00109B01 /* background.js in Resources */,
+				AF5573E626EFFA5F00109B01 /* popup.css in Resources */,
+				AF5573E426EFFA5F00109B01 /* popup.html in Resources */,
+				AF5573DC26EFFA5F00109B01 /* images in Resources */,
+				AF5573DE26EFFA5F00109B01 /* manifest.json in Resources */,
+				AF5573DA26EFFA5F00109B01 /* _locales in Resources */,
+				AF5573E226EFFA5F00109B01 /* content.js in Resources */,
+				AF5573E826EFFA5F00109B01 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,14 +303,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5573C726EFFA2D00109B01 /* Persistence.swift in Sources */,
+				AFA5C50826F9222300B50746 /* FxView.swift in Sources */,
+				AF9F319326F1503700C6C2FB /* AddToWhitelistView.swift in Sources */,
+				AF492E3026F9130200F1347A /* MotionManager.swift in Sources */,
+				AF9F31B426F24C6F00C6C2FB /* UserSettings.swift in Sources */,
+				AF9F319126F14FFF00C6C2FB /* InstructionsView.swift in Sources */,
 				AF5573C026EFFA2C00109B01 /* ContentView.swift in Sources */,
+				AFA5C52A26F9355C00B50746 /* Tile.swift in Sources */,
 				AF5573BE26EFFA2C00109B01 /* DampApp.swift in Sources */,
 				AF5573CA26EFFA2D00109B01 /* Damp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF5573D026EFFA5F00109B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5573D726EFFA5F00109B01 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5573EB26EFFA5F00109B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5573D326EFFA5F00109B01 /* Damp Extension */;
+			targetProxy = AF5573EA26EFFA5F00109B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AF5573CB26EFFA2D00109B01 /* Debug */ = {
@@ -272,6 +453,7 @@
 		AF5573CE26EFFA2D00109B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,28 +462,31 @@
 				DEVELOPMENT_TEAM = VFNEPQ7P7N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Damp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wvgg.Damp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "d’AMP";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AF5573CF26EFFA2D00109B01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,19 +495,81 @@
 				DEVELOPMENT_TEAM = VFNEPQ7P7N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Damp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wvgg.Damp;
+				PRODUCT_NAME = "d’AMP";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AF5573EE26EFFA5F00109B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFNEPQ7P7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Damp Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Damp Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wvgg.Damp.Damp-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5573EF26EFFA5F00109B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VFNEPQ7P7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Damp Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Damp Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wvgg.Damp.Damp-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +593,15 @@
 			buildConfigurations = (
 				AF5573CE26EFFA2D00109B01 /* Debug */,
 				AF5573CF26EFFA2D00109B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5573ED26EFFA5F00109B01 /* Build configuration list for PBXNativeTarget "Damp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5573EE26EFFA5F00109B01 /* Debug */,
+				AF5573EF26EFFA5F00109B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

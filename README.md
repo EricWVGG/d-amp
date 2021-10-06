@@ -13,6 +13,6 @@ Like many others, I eventually bailed from Google on my iPhone and switched to D
 
 Anyway: I had a bit of fun writing this. The design is inspired by Tab Cola (the phrase “it’s the real thing” was ping-ponging in my head, and Tab soda was on my mind… just silliness really). I had some fun playing with inertial special effects — look closely at the "shine" on the background, it rolls in your hand like a soda can.
 
-I am open-sourcing this mostly because the documentation for Web Extensions is not great, so I thought it would be nice to have a working app out there that folks could hack around with. Maybe someday I’ll turn this into a proper Extension tutorial…?
+I am open-sourcing this mostly because the documentation for Web Extensions is not great, so I thought it would be nice to have a working app out there that folks could hack around with. Really looking forward to some maniac changing the name and uploading to the App Store 9_9. Maybe someday I’ll turn this into a proper Extension tutorial…?
 
 xoxo Sept 2021 @Eric_WVGG

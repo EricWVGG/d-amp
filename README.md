@@ -9,7 +9,7 @@ And got beat to the market by https://overamped.app. Which in turn was beat to m
 
 For the record, of the three of us, my app has the best name.
 
-![E_5apW5UYBEGhmT](https://user-images.githubusercontent.com/617762/136248696-4c82962c-9814-4036-85c8-43dee9fa1dbd.jpeg)
+<img width="240" alt="Screen Shot 2021-10-06 at 1 00 15 PM" src="https://user-images.githubusercontent.com/617762/136250240-3ed9ce78-7dd3-45dc-8478-31933576f167.PNG">
 
 Anyway, I had a bit of fun writing this. The design is inspired by Tab Cola, not for any real reason, it was just sort of on my mind. I had some fun playing with inertial special effects (look real closely at the "shine" on the background, it rolls in your hand like a soda can).
 

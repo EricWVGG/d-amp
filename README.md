@@ -9,6 +9,8 @@ And got beat to the market by https://overamped.app. Which in turn was beat to m
 
 For the record, of the three of us, my app has the best name.
 
+![E_5apW5UYBEGhmT](https://user-images.githubusercontent.com/617762/136248696-4c82962c-9814-4036-85c8-43dee9fa1dbd.jpeg)
+
 Anyway, I had a bit of fun writing this. The design is inspired by Tab Cola, not for any real reason, it was just sort of on my mind. I had some fun playing with inertial special effects (look real closely at the "shine" on the background, it rolls in your hand like a soda can).
 
 I am releasing the source this mostly because the documentation for Web Extensions is not great, so hopefully someone can pick up from what I managed to figure out.

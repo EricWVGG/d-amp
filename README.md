@@ -7,9 +7,9 @@ Like many others, I eventually bailed from Google on my iPhone and switched to D
 
 … and got beat to the market by https://overamped.app. Which in turn was beat to market by https://amplosion.app. Derp.
 
-(For the record, I think my app has the best name.)
-
 <img width="240" alt="Screen Shot 2021-10-06 at 1 00 15 PM" src="https://user-images.githubusercontent.com/617762/136250240-3ed9ce78-7dd3-45dc-8478-31933576f167.PNG">
+
+(For the record, I think my app has the best name.)
 
 Anyway: I had a bit of fun writing this. The design is inspired by Tab Cola (the phrase “it’s the real thing” was ping-ponging in my head, and Tab soda was on my mind… just silliness really). I had some fun playing with inertial special effects — look closely at the "shine" on the background, it rolls in your hand like a soda can.
 
